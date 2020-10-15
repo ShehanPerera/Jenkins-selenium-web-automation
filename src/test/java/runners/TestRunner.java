@@ -12,9 +12,7 @@ import java.io.File;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue= {"steps"},
-        plugin = { "pretty","com.cucumber.listener.ExtentCucumberFormatter:/home/shehan/IdeaProjects/mSpaceSeleniumCucumber" +
-                "/extentReports/extentReports.html","html:/home/shehan/IdeaProjects/mSpaceSeleniumCucumber" +
-                "/htmlReports/"}
+        plugin = { "pretty","com.cucumber.listener.ExtentCucumberFormatter:extentReports/extentReports.html","html:htmlReports/"}
 )
 public class TestRunner {
     @AfterClass
