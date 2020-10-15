@@ -1,4 +1,4 @@
-Feature: mSpace Login Example
+Feature: Basic Login Example
 
   Scenario: Verification of admin login
     Given user go to mspace login page
